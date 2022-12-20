@@ -1,0 +1,18 @@
+object = {  
+    "employee": {  
+        "name":       "sonoo",   
+        "salary":      56000,   
+        "married":    true  
+    }  
+	
+	    "employee2": {  
+        "name":       "mahesh",   
+        "salary":      56000,   
+        "married":    true  
+    }  
+}  
+def my_function(key):
+  for d in object.values():
+    print d[key]
+	
+my_function(keyname)	
